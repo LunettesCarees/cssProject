@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #023047;
+    text-align: center;
+    margin: 0% 15%;
+}
+
+article {
+    background-color: #8ecae6;
+    padding: 1em;
+}
+
+header img {
+    margin: 1em 0;
+    max-width: 100%;
+    box-shadow: 6px 6px gray;
+}
+
+h1 {
+    border-bottom: 3px solid #023047;
+    margin: 0% 2em;
+    font-size: 2em;
+}
+
+h1 ~ p {
+    font-size: x-large;
+}
+
+.lyrics {
+    font-family: 'Roboto Slab', serif;
+    font-size: xx-large;
+}
+
+audio {
+    width: 450px;
+}
+
+.chorus {
+    margin: 1em;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5em;
+    text-shadow: .2em .2em .3em #219ebc;
+}
+
+hr {
+    color: #219ebc;
+    border-width: 2px;
+    border-style:solid
+}
+
+span:hover {
+    color: #fb8500;
+}
