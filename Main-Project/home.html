@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="files/css/style.css" />
+    <link rel="stylesheet" href="files/css/queries.css" />
+
+    <script defer src="files/js/script.js"></script>
+
+    <title>Logitech - Home Page</title>
+  </head>
+  <body>
+    <header class="header nav-open">
+      <a href="home.html">
+        <img
+          class="logo"
+          src="files/img/logitech-logo.png"
+          alt="Logitech logo"
+        />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a href="home.html" class="main-nav-link" id="home-link">Home</a>
+          </li>
+          <li class="main-nav-item">
+            <a href="product.html" class="main-nav-link">Products</a>
+          </li>
+          <li class="main-nav-item">
+            <a href="about.html" class="main-nav-link">About</a>
+          </li>
+          <li class="main-nav-item">
+            <a href="contact.html" class="main-nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Unleash your potential with every keystroke - choose Logitech
+              keyboards.
+            </h1>
+            <p class="hero-description">
+              Logitech is a premium keyboard brand that is dedicated to
+              providing high-quality and innovative products to enhance your
+              typing experience. Our keyboards are designed with the latest
+              technology and ergonomic features to ensure maximum comfort and
+              productivity for our users.
+            </p>
+            <a href="product.html" class="btn btn-premier"
+              >Find your next keyboard</a
+            >
+          </div>
+          <div class="hero-img-box">
+            <img
+              src="files/img/hero.jpg"
+              class="hero-img"
+              alt="Keyboard Background Image"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section-showcase">
+        <div class="container">
+          <span class="subheading">Featuring</span>
+          <h2 class="heading-secondary">Shop wired and wireless keyboards.</h2>
+        </div>
+        <div class="container grid grid-2-cols grid-center">
+          <div class="showcase-text-box">
+            <h3 class="heading-tertiary">
+              K580 Slim Multi-Device Wireless Keyboard
+            </h3>
+            <p class="showcase-description">
+              Ultra-slim, compact, and quiet keyboard for computers, phones or
+              tablets.
+            </p>
+          </div>
+          <div class="showcase-img-box">
+            <img
+              src="files/img/k580-slim-multi-device-wireless-kb-front-gallery-rose-us.webp"
+              alt="k580 slim multi device wireless kb front gallery rose us"
+              class="showcase-img"
+            />
+          </div>
+
+          <div class="showcase-img-box">
+            <img
+              src="files/img/k650-top-graphite-us.webp"
+              alt="k650 top graphite us"
+              class="showcase-img"
+            />
+          </div>
+
+          <div class="showcase-text-box">
+            <h3 class="heading-tertiary">Signature K650</h3>
+            <p class="showcase-description">
+              Wireless keyboard, equipped for everyday work and comfort.
+            </p>
+          </div>
+
+          <div class="showcase-text-box">
+            <h3 class="heading-tertiary">Pop Keys</h3>
+            <p class="showcase-description">
+              Wireless Mechanical Keyboard with Customizable Emoji Keys.
+            </p>
+          </div>
+
+          <div class="showcase-img-box">
+            <img
+              src="files/img/pop-keys-gallery-cosmo-1.webp"
+              alt="pop keys gallery cosmo 1"
+              class="showcase-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Sign up for newest promotion</h2>
+              <p class="cta-text">SPRING FOR SAVINGS. BUY MORE, SAVE MORE</p>
+              <form action="#" class="cta-form">
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Your name"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email">Email Address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="Your email"
+                    required
+                  />
+                </div>
+                <button class="btn btn-form">Sign up</button>
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="White Keyboard"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container grid grid-footer">
+        <div class="logo-col">
+          <a href="home.html" class="footer-logo">
+            <img
+              class="logo"
+              src="files/img/logitech-logo.png"
+              alt="Logitech logo"
+            />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a href="#" class="footer-link"
+                ><ion-icon name="logo-instagram" class="social-icon"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="footer-link"
+                ><ion-icon name="logo-facebook" class="social-icon"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="footer-link"
+                ><ion-icon name="logo-twitter" class="social-icon"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2023 by Logitech, Inc. All rights reserved.
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              7700 Gateway Blvd. <br />
+              Newark, CA 94560 USA
+            </p>
+            <p>
+              <a href="tel:510-795-8500" class="footer-link">+1 510-795-8500</a>
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Sign Up</a></li>
+            <li><a class="footer-link" href="#">Log in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">About Logitech</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+            <li><a class="footer-link" href="#">Investors</a></li>
+            <li><a class="footer-link" href="#">Blog</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Return policy</a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
